@@ -31,6 +31,6 @@ func Open_File(fileName string) {
 	median(num_Array)
 	vrn := variance(num_Array, mean)
 	stDeviation := math.Sqrt(vrn)
-	fmt.Printf("Standard Deviation: %d\n", int(math.Round(stDeviation))
+	fmt.Printf("Standard Deviation: %d\n", int(math.Round(stDeviation)))
 	return
 }
