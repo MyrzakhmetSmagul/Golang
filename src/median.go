@@ -22,5 +22,5 @@ func median(num_Array []int) {
 	}
 	medianIndex = (len(num_Array)-1) / 2
 	medianMean = (float64(num_Array[medianIndex]) + float64(num_Array[medianIndex+1])) / float64(2)
-	fmt.Printf("Median %d\n", int(math.Round(medianMean))
+	fmt.Printf("Median: %d\n", int(math.Round(medianMean)))
 }
