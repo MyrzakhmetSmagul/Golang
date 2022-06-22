@@ -17,6 +17,6 @@ func variance(num_Array []int, avg float64) float64 {
 		sum += elem * elem
 	}
 	vrn = float64(sum) / float64(len(variance_Num))
-	fmt.Printf("Variance %d\n", int(math.Round(vrn))
+	fmt.Printf("Variance: %d\n", int(math.Round(vrn)))
 	return vrn
 }
