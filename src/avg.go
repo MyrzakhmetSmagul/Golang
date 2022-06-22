@@ -12,6 +12,6 @@ func average(num_Array []int) float64 {
 		sum += elem
 	}
 	avg = float64(sum) / float64(len(num_Array))
-	fmt.Printf("Average: %d\n", int(math.Round(avg))
+	fmt.Printf("Average: %d\n", int(math.Round(avg)))
 	return avg
 }
